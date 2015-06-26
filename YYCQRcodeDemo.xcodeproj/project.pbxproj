@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BA49BB1B3CEF7800AC91D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA49BA1B3CEF7800AC91D7 /* main.m */; };
+		71BA49BE1B3CEF7800AC91D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA49BD1B3CEF7800AC91D7 /* AppDelegate.m */; };
+		71BA49C11B3CEF7800AC91D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA49C01B3CEF7800AC91D7 /* ViewController.m */; };
+		71BA49C41B3CEF7800AC91D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BA49C21B3CEF7800AC91D7 /* Main.storyboard */; };
+		71BA49C61B3CEF7800AC91D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BA49C51B3CEF7800AC91D7 /* Images.xcassets */; };
+		71BA49C91B3CEF7800AC91D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BA49C71B3CEF7800AC91D7 /* LaunchScreen.xib */; };
+		71BA49D51B3CEF7800AC91D7 /* YYCQRcodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA49D41B3CEF7800AC91D7 /* YYCQRcodeDemoTests.m */; };
+		71BA49E11B3CF13200AC91D7 /* YCQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA49E01B3CF13200AC91D7 /* YCQRViewController.m */; };
+		71BA49E41B3CF1D800AC91D7 /* YCQRview.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BA49E31B3CF1D800AC91D7 /* YCQRview.m */; };
+		71BA49E61B3CF51100AC91D7 /* 扫一扫.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BA49E51B3CF51100AC91D7 /* 扫一扫.png */; };
+		71BA49E81B3CF70100AC91D7 /* QRline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BA49E71B3CF70100AC91D7 /* QRline@2x.png */; };
+		71BA49EA1B3D14E100AC91D7 /* icon_torch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BA49E91B3D14E100AC91D7 /* icon_torch@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BA49CF1B3CEF7800AC91D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BA49AD1B3CEF7800AC91D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BA49B41B3CEF7800AC91D7;
+			remoteInfo = YYCQRcodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71BA49B51B3CEF7800AC91D7 /* YYCQRcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCQRcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BA49B91B3CEF7800AC91D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BA49BA1B3CEF7800AC91D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71BA49BC1B3CEF7800AC91D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71BA49BD1B3CEF7800AC91D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71BA49BF1B3CEF7800AC91D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71BA49C01B3CEF7800AC91D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71BA49C31B3CEF7800AC91D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71BA49C51B3CEF7800AC91D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71BA49C81B3CEF7800AC91D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71BA49CE1B3CEF7800AC91D7 /* YYCQRcodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYCQRcodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BA49D31B3CEF7800AC91D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BA49D41B3CEF7800AC91D7 /* YYCQRcodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCQRcodeDemoTests.m; sourceTree = "<group>"; };
+		71BA49DF1B3CF13200AC91D7 /* YCQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCQRViewController.h; sourceTree = "<group>"; };
+		71BA49E01B3CF13200AC91D7 /* YCQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCQRViewController.m; sourceTree = "<group>"; };
+		71BA49E21B3CF1D800AC91D7 /* YCQRview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCQRview.h; sourceTree = "<group>"; };
+		71BA49E31B3CF1D800AC91D7 /* YCQRview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCQRview.m; sourceTree = "<group>"; };
+		71BA49E51B3CF51100AC91D7 /* 扫一扫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫.png"; sourceTree = "<group>"; };
+		71BA49E71B3CF70100AC91D7 /* QRline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRline@2x.png"; sourceTree = "<group>"; };
+		71BA49E91B3D14E100AC91D7 /* icon_torch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_torch@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BA49B21B3CEF7800AC91D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA49CB1B3CEF7800AC91D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BA49AC1B3CEF7800AC91D7 = {
+			isa = PBXGroup;
+			children = (
+				71BA49E91B3D14E100AC91D7 /* icon_torch@2x.png */,
+				71BA49E51B3CF51100AC91D7 /* 扫一扫.png */,
+				71BA49E71B3CF70100AC91D7 /* QRline@2x.png */,
+				71BA49B71B3CEF7800AC91D7 /* YYCQRcodeDemo */,
+				71BA49D11B3CEF7800AC91D7 /* YYCQRcodeDemoTests */,
+				71BA49B61B3CEF7800AC91D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BA49B61B3CEF7800AC91D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BA49B51B3CEF7800AC91D7 /* YYCQRcodeDemo.app */,
+				71BA49CE1B3CEF7800AC91D7 /* YYCQRcodeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BA49B71B3CEF7800AC91D7 /* YYCQRcodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				71BA49BC1B3CEF7800AC91D7 /* AppDelegate.h */,
+				71BA49BD1B3CEF7800AC91D7 /* AppDelegate.m */,
+				71BA49BF1B3CEF7800AC91D7 /* ViewController.h */,
+				71BA49C01B3CEF7800AC91D7 /* ViewController.m */,
+				71BA49C21B3CEF7800AC91D7 /* Main.storyboard */,
+				71BA49DE1B3CF0DB00AC91D7 /* YYCQRcode */,
+				71BA49C51B3CEF7800AC91D7 /* Images.xcassets */,
+				71BA49C71B3CEF7800AC91D7 /* LaunchScreen.xib */,
+				71BA49B81B3CEF7800AC91D7 /* Supporting Files */,
+			);
+			path = YYCQRcodeDemo;
+			sourceTree = "<group>";
+		};
+		71BA49B81B3CEF7800AC91D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BA49B91B3CEF7800AC91D7 /* Info.plist */,
+				71BA49BA1B3CEF7800AC91D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71BA49D11B3CEF7800AC91D7 /* YYCQRcodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71BA49D41B3CEF7800AC91D7 /* YYCQRcodeDemoTests.m */,
+				71BA49D21B3CEF7800AC91D7 /* Supporting Files */,
+			);
+			path = YYCQRcodeDemoTests;
+			sourceTree = "<group>";
+		};
+		71BA49D21B3CEF7800AC91D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BA49D31B3CEF7800AC91D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71BA49DE1B3CF0DB00AC91D7 /* YYCQRcode */ = {
+			isa = PBXGroup;
+			children = (
+				71BA49DF1B3CF13200AC91D7 /* YCQRViewController.h */,
+				71BA49E01B3CF13200AC91D7 /* YCQRViewController.m */,
+				71BA49E21B3CF1D800AC91D7 /* YCQRview.h */,
+				71BA49E31B3CF1D800AC91D7 /* YCQRview.m */,
+			);
+			path = YYCQRcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BA49B41B3CEF7800AC91D7 /* YYCQRcodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BA49D81B3CEF7800AC91D7 /* Build configuration list for PBXNativeTarget "YYCQRcodeDemo" */;
+			buildPhases = (
+				71BA49B11B3CEF7800AC91D7 /* Sources */,
+				71BA49B21B3CEF7800AC91D7 /* Frameworks */,
+				71BA49B31B3CEF7800AC91D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYCQRcodeDemo;
+			productName = YYCQRcodeDemo;
+			productReference = 71BA49B51B3CEF7800AC91D7 /* YYCQRcodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BA49CD1B3CEF7800AC91D7 /* YYCQRcodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BA49DB1B3CEF7800AC91D7 /* Build configuration list for PBXNativeTarget "YYCQRcodeDemoTests" */;
+			buildPhases = (
+				71BA49CA1B3CEF7800AC91D7 /* Sources */,
+				71BA49CB1B3CEF7800AC91D7 /* Frameworks */,
+				71BA49CC1B3CEF7800AC91D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BA49D01B3CEF7800AC91D7 /* PBXTargetDependency */,
+			);
+			name = YYCQRcodeDemoTests;
+			productName = YYCQRcodeDemoTests;
+			productReference = 71BA49CE1B3CEF7800AC91D7 /* YYCQRcodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BA49AD1B3CEF7800AC91D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = yungui;
+				TargetAttributes = {
+					71BA49B41B3CEF7800AC91D7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					71BA49CD1B3CEF7800AC91D7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 71BA49B41B3CEF7800AC91D7;
+					};
+				};
+			};
+			buildConfigurationList = 71BA49B01B3CEF7800AC91D7 /* Build configuration list for PBXProject "YYCQRcodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BA49AC1B3CEF7800AC91D7;
+			productRefGroup = 71BA49B61B3CEF7800AC91D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BA49B41B3CEF7800AC91D7 /* YYCQRcodeDemo */,
+				71BA49CD1B3CEF7800AC91D7 /* YYCQRcodeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BA49B31B3CEF7800AC91D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BA49E61B3CF51100AC91D7 /* 扫一扫.png in Resources */,
+				71BA49C41B3CEF7800AC91D7 /* Main.storyboard in Resources */,
+				71BA49C91B3CEF7800AC91D7 /* LaunchScreen.xib in Resources */,
+				71BA49E81B3CF70100AC91D7 /* QRline@2x.png in Resources */,
+				71BA49EA1B3D14E100AC91D7 /* icon_torch@2x.png in Resources */,
+				71BA49C61B3CEF7800AC91D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA49CC1B3CEF7800AC91D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BA49B11B3CEF7800AC91D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BA49C11B3CEF7800AC91D7 /* ViewController.m in Sources */,
+				71BA49E11B3CF13200AC91D7 /* YCQRViewController.m in Sources */,
+				71BA49BE1B3CEF7800AC91D7 /* AppDelegate.m in Sources */,
+				71BA49BB1B3CEF7800AC91D7 /* main.m in Sources */,
+				71BA49E41B3CF1D800AC91D7 /* YCQRview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA49CA1B3CEF7800AC91D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BA49D51B3CEF7800AC91D7 /* YYCQRcodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BA49D01B3CEF7800AC91D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BA49B41B3CEF7800AC91D7 /* YYCQRcodeDemo */;
+			targetProxy = 71BA49CF1B3CEF7800AC91D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71BA49C21B3CEF7800AC91D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BA49C31B3CEF7800AC91D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71BA49C71B3CEF7800AC91D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BA49C81B3CEF7800AC91D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71BA49D61B3CEF7800AC91D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71BA49D71B3CEF7800AC91D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BA49D91B3CEF7800AC91D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYCQRcodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71BA49DA1B3CEF7800AC91D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYCQRcodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71BA49DC1B3CEF7800AC91D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYCQRcodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYCQRcodeDemo.app/YYCQRcodeDemo";
+			};
+			name = Debug;
+		};
+		71BA49DD1B3CEF7800AC91D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYCQRcodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYCQRcodeDemo.app/YYCQRcodeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BA49B01B3CEF7800AC91D7 /* Build configuration list for PBXProject "YYCQRcodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA49D61B3CEF7800AC91D7 /* Debug */,
+				71BA49D71B3CEF7800AC91D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BA49D81B3CEF7800AC91D7 /* Build configuration list for PBXNativeTarget "YYCQRcodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA49D91B3CEF7800AC91D7 /* Debug */,
+				71BA49DA1B3CEF7800AC91D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71BA49DB1B3CEF7800AC91D7 /* Build configuration list for PBXNativeTarget "YYCQRcodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA49DC1B3CEF7800AC91D7 /* Debug */,
+				71BA49DD1B3CEF7800AC91D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BA49AD1B3CEF7800AC91D7 /* Project object */;
+}
