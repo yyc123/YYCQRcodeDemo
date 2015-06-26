@@ -86,6 +86,7 @@
     UIView *cover4 = [[UIView alloc]initWithFrame:cover4Rect];
     cover4.backgroundColor = backColor;
     cover4.alpha = 0.6;
+    
     [self addSubview:cover4];
 
 }
