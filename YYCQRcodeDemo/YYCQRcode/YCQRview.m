@@ -21,7 +21,7 @@
         self.myRect = firstRect;
          [self addScanBackGround];
          [self addScanRange];
-        [self addflashBtn];
+         [self addflashBtn];
         
       
     }
