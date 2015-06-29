@@ -448,6 +448,7 @@
 				71BA49DA1B3CEF7800AC91D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71BA49DB1B3CEF7800AC91D7 /* Build configuration list for PBXNativeTarget "YYCQRcodeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				71BA49DD1B3CEF7800AC91D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
