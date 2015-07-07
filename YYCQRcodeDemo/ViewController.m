@@ -9,6 +9,11 @@
 #import "ViewController.h"
 #import "YCQRViewController.h"
 
+#if TARGET_IPHONE_SIMULATOR
+#define SIMULATOR 1
+#elif TARGET_OS_IPHONE
+#define SIMULATOR 0
+#endif
 @interface ViewController ()
 
 @end
@@ -26,6 +31,16 @@
 }
 - (IBAction)goNextVC:(id)sender {
     YCQRViewController * vc = [[YCQRViewController alloc]init];
+    if (SIMULATOR==1) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
+                                                        message:[NSString stringWithFormat:@"请在真机上扫描二维码"]
+                                                       delegate:self
+                                              cancelButtonTitle:@"确定"
+                                              otherButtonTitles:nil];
+        [alert show];
+        
+        return;
+    }
     [self.navigationController pushViewController:vc animated:YES];
 }
 
